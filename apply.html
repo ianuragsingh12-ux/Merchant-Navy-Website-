@@ -86,23 +86,19 @@ button:hover {
   <h1>⚓ Apply for Merchant Navy</h1>
 </header>
 
-<form action="'https://formspree.io/projects/2908815396976983592/settings" method="POST">
-
+</body><form action="https://formspree.io/f/xjggbyez" method="POST">
   <h2>Application Form</h2>
-<a href="index.html" class="floating-back">← Home</a>
+  <a href="index.html" class="floating-back">← Home</a>
+
   <input type="text" name="name" placeholder="Full Name" required>
-
   <input type="email" name="email" placeholder="Email Address" required>
-
   <input type="tel" name="phone" placeholder="Mobile Number" required>
-
   <select name="course" required>
     <option value="">Select Course</option>
     <option>Deck Department</option>
     <option>Engine Department</option>
     <option>Catering Department</option>
   </select>
-
   <select name="qualification" required>
     <option value="">Highest Qualification</option>
     <option>10th Pass</option>
@@ -110,16 +106,16 @@ button:hover {
     <option>Diploma</option>
     <option>Graduate</option>
   </select>
-
   <textarea name="message" rows="4" placeholder="Message / Questions (Optional)"></textarea>
 
   <!-- REQUIRED HIDDEN FIELDS -->
   <input type="hidden" name="_subject" value="New Merchant Navy Application">
   <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="thankyou.html">
+  <input type="hidden" name="_replyto" value="email">
+  <input type="hidden" name="_autoresponse" value="Thank you for applying! We will contact you soon.">
 
-  <!-- VERY IMPORTANT -->
   <button type="submit">Submit Application</button>
 </form>
-
 </body>
 </html>
