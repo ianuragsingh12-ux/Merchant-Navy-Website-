@@ -263,4 +263,33 @@ Contact Us
   font-size: 16px;
   margin: 6px 0;
 }
+  .footer {
+  background: #08162f;
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+  margin-top: 60px;
+}
+
+.footer p {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-links img {
+  width: 32px;
+  height: 32px;
+  filter: invert(1);
+  transition: transform 0.3s;
+}
+
+.social-links img:hover {
+  transform: scale(1.2);
+}
 }
