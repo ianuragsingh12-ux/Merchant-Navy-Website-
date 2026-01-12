@@ -152,18 +152,18 @@ section {
 .social-links {
   display: flex;
   justify-content: center;
-  gap: 25px;
+  gap: 12px; /* optional smaller spacing */
 }
 
 .social-links img {
-  width: 28px;
-  height: 28px;
+  width: 20px;   /* smaller size */
+  height: 20px;
   filter: invert(1);
   transition: transform 0.3s ease;
 }
 
 .social-links img:hover {
-  transform: scale(1.2);
+  transform: scale(1.15);
 }
 
 /* ----------- RESPONSIVE ----------- */
