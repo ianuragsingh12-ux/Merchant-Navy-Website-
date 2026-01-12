@@ -149,27 +149,6 @@ footer {
   color: white;
 }
 
-/* Social Icons Container */
-.social-links {
-  display: flex;
-  justify-content: center;
-  gap: 12px; /* spacing between icons */
-  margin-top: 10px;
-}
-
-/* Social Icon Images */
-.social-links img {
-  width: 20px;     /* smaller size */
-  height: 20px;
-  filter: invert(1);
-  transition: transform 0.3s ease;
-}
-
-/* Hover Effect */
-.social-links img:hover {
-  transform: scale(1.15);
-}
-
 /* ----------- RESPONSIVE ----------- */
 @media (max-width: 768px) {
   header {
